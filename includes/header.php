@@ -117,7 +117,7 @@ switch($country){
 
 $nav['index.php'] = 'Home';
 $nav['country.php'] = 'Retire to';
-$nav['countrylist.php'] = 'Customers';
+$nav['countrylist.php'] = 'Top 10';
 $nav['contact.php'] = 'Contact';
 $nav['about.php'] = 'About';
 

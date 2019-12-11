@@ -298,6 +298,14 @@ aside ol .top-cities a {
     text-decoration: none;
 }
 
+.list-countries-top10{
+    width: 100%;
+}
+
+.country-List-Summary{
+    width: 100%;
+}
+
 /*--------------------Tags------------------*/
 h1 a {
     color: rgba(255,255,255,0.9);
@@ -320,8 +328,10 @@ ul li a {
 
 table {
     width: 100%;
+    margin-top: 5%;
 }
 
 td {
     width: 25%;
+    text-align: center;
 }

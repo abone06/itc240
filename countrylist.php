@@ -22,8 +22,15 @@ include("includes/header.php");
 ?>
 
 
-        <main>
+        <main class="list-countries-top10">
+            <h1>Top 10 of Countries to Retire</h1>
            <table>
+                <tr> 
+                    <th></th>
+                    <th>Country Name</th> 
+                    <th>Rank</th> 
+                    <th>Review</th> 
+                </tr> 
                
 <?php 
 //------------- Connect to the DB ------------
@@ -90,10 +97,10 @@ if(mysqli_num_rows($data_by_country) > 0 ) {
         }
 
         echo '<tr>';
-        echo '<td><img class="countrySummary" src="images/'. $countryListNameDB . '-summary.png" alt="' . $countryListNameDB.' Summary" /></td>';
+        echo '<td><img class="country-List-Summary" src="images/'. $countryListNameDB . '-summary.png" alt="' . $countryListNameDB.' Summary" /></td>';
         echo '<td>'.$countryListName.'</td>';
         echo '<td>'. $rankList.'</td>';
-        echo '<td><a>More Information...</a></td>';
+        echo '<td><a>Click to view more information...</a></td>';
         echo '</tr>';
         
     }
@@ -114,8 +121,5 @@ if(mysqli_num_rows($data_by_country) > 0 ) {
             </table>
            
        </main>
-       <aside>
-
-       </aside>
 
 <?php include("includes/footer.php");?>
