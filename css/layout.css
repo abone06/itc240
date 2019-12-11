@@ -1,0 +1,327 @@
+#wrapper {
+    margin: 0 auto;
+    width: 940px;
+}
+
+header {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    height: 100%;
+    outline: 2px rgba(163,49,65,1) outset;
+    /*margin-bottom: 20px;*/
+    background-color: rgba(163,49,65,1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    color: rgba(255,255,255,1);
+    align-content: center;
+    width: 15%;
+    float: left !important;
+    line-height: 50px;
+    background-color: rgba(163,49,65,0.9);
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+}
+
+nav ul li:hover {
+    background-color: rgba(163,49,122,0.8);
+}
+
+.banner {
+    height: 300px;
+    background-color: rgba(76,76,76,0.7);
+    width: 60%;
+}
+
+main {
+    float: left;
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    height: 50px;
+    width: 940px;
+    outline: 2px rgba(163,49,65,1) outset;
+    background-color: rgba(163,49,65,0.9);
+    text-align: right;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+
+footer p {
+    color: rgba(255,255,255,0.8);
+    /*line-height: 50px;*/
+    font-size: 1em;
+    margin-left: 0%;
+    padding-right: 3%;
+    margin-bottom: 50px;
+}
+
+footer p small a {
+    color: rgba(255,255,255,0.8);
+}
+
+footer p small a:hover {
+    color: rgba(255, 230, 0, 0.8);
+}
+
+/*--------------------Classess------------------*/
+.box {
+    height: 100%;
+    /*width: 10%;
+    position: sticky;
+    top: 0;
+    right: 0;*/
+    margin-right: 0.5%;
+    background-color: rgba(204,85,101,1);
+    outline: 2px rgba(204,85,101,1) outset;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1em;
+}
+
+.box_text {
+    color: rgba(255,255,255,0.9);
+}
+
+/*------------- Country CSS ---------- */
+.CostaRica {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/CostaRica.png); 
+    background-size: 100% 100%;
+}
+
+.Panama {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/Panama.png); 
+    background-size: 100% 100%;
+}
+
+.Mexico {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/Mexico.png); 
+    background-size: 100% 100%;
+
+}
+
+.Ecuador {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/Ecuador.png); 
+    background-size: 100% 100%;
+
+}
+
+.Malaysia {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/Malaysia.png); 
+    background-size: 100% 100%;
+
+}
+
+.Japan {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/Japan.png); 
+    background-size: 100% 100%;
+
+}
+
+.Canada {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/Canada.png); 
+    background-size: 100% 100%;
+
+}
+
+.Thailand {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/Thailand.png); 
+    background-size: 100% 100%;
+
+}
+
+.Germany {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/Germany.png); 
+    background-size: 100% 100%;
+
+}
+
+.UnitedKingdom {
+    height: 300px;
+    outline: 2px rgba(163,49,65,1) outset;
+    margin-bottom: 20px;
+    background-image: url(../images/UnitedKingdom.png); 
+    background-size: 100% 100%;
+
+}
+
+
+
+/*--------- Other Classes --------*/
+
+.box p {
+    font-size: 0.85em;
+    margin-left: 10%;
+    margin-bottom: -8%;
+}
+
+.box_singin{
+    color: rgba(255,255,255,0.9);
+}
+
+.logo {
+    margin-right: 4%;
+}
+
+.top-container {
+    background-color: rgba(255,255,255,1);
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto 10%;
+    position: sticky;
+    top: 0;
+}
+
+.top-cities {
+    margin-bottom: 5%;
+}
+
+.retire1{
+    float: left;
+    width: 65%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.banner h1 {
+    margin-left: 10px;
+    color: rgba(255,255,255,0.9);
+}
+
+.banner h2 {
+    margin-left: 10px;
+    color: rgba(255,255,255,0.9);
+}
+
+.banner h3 {
+    margin-left: 10px;
+    color: rgba(255,255,255,0.9);
+}
+
+/* ----------- FORM STYLE -------------*/
+
+.thanks{
+
+    width: 90%;
+
+}
+
+.contact-form{
+    margin-left: 4%;
+}
+
+.error{
+    color: rgba(150,0,0,0.9);
+}
+
+.place-form {
+    list-style-type: none;
+}
+
+.place-gender {
+    list-style-type: none;
+}
+
+.countrySummary {
+    float: right;
+    width: 65%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.summary-list {
+    list-style-type: none;
+    margin-top: 15%;
+    padding-inline-start: 0px;
+}
+
+.description {
+    clear: both;
+}
+
+
+aside ol .top-cities a {
+    color: rgba(0,0,0,0.9);
+    text-decoration: none;
+}
+
+/*--------------------Tags------------------*/
+h1 a {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+}
+
+h2 a {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+}
+
+h3 a {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+}
+
+ul li a {
+    color: rgba(0,0,0,0.9);
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 25%;
+}
